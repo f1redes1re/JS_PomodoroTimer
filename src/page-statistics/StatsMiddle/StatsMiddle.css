@@ -1,0 +1,106 @@
+.statistics__middle {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.statistics__middle-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.statistics__middle-info {
+  width: 246px;
+  height: 210px;
+  padding: 25px;
+  margin-bottom: 32px;
+  background-color: #f4f4f4;
+}
+
+.statistics__middle-day {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.statistics__middle-time {
+  display: block;
+}
+
+.statistics__middle-time-stat {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: red;
+}
+
+.statistics__middle-pomodoros {
+  position: relative;
+  display: flex;
+  width: 246px;
+  height: 156px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 23px;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.statistics__middle-pomodoros-data-conatainer {
+  display: flex;
+  width: 100%;
+  height: 81px;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics__middle-pomodoros-img {
+  width: 81px;
+  height: 81px;
+  margin-right: 15px;
+}
+
+.statistics__middle-pomodoros-num {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #999999;
+}
+
+.statistics__middle-pomodoros-bottom-block-default {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc3e22;
+}
+
+.statistics__middle-pomodoros-bottom-block-visible {
+  display: flex;
+}
+
+.statistics__middle-pomodoros-bottom-block-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.statistics__middle-right {
+  width: 952px;
+  height: 471px;
+  background-color: #f4f4f4;
+}
+
+.statistics__middle-chart {
+  padding: 0 11px 11px 0;
+}
